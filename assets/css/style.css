@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/bkgrnd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    background: rgb(199, 169, 0);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#buttons-view {
+    color: black;
+    padding-bottom: 15px;
+}
+
+.movie {
+    background: rgb(199, 169, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+p {
+    background: rgb(199, 169, 0);
+    color: black;
+    width: 20%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+label {
+    background: rgb(199, 169, 0);
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 12px !important;
+}
+
+.gif {
+    padding-bottom: 15px;
+}
+
+#movie-input {
+    width: 50%;
+    color: black;
+}
+
+#add-movie {
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    width: 50%;
+    text-align: center;
+    background: rgb(199, 169, 0);
+    margin-top: 10px;
+}
