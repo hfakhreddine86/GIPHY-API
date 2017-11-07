@@ -16,12 +16,12 @@ function displayMovie() {
 
         console.log(response);
 
-        var topics = response.data;
+        topics = response.data;
 
         for (var i = 0; i < topics.length; i++) {
 
             // Creating and storing a div tag
-            var movieDiv = $("<div>");
+            var movieDiv = $("<div class='movie-container'>");
 
             // Creating a paragraph tag with the result item's rating
             var p = $("<p>").text("Rating: " + topics[i].rating);
