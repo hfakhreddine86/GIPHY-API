@@ -16,7 +16,7 @@ function displayMovie() {
 
         console.log(response);
 
-        topics = response.data;
+        var topics = response.data;
 
         for (var i = 0; i < topics.length; i++) {
 
